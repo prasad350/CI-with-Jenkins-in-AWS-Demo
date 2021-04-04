@@ -6,7 +6,10 @@
         <artifactId>proj3</artifactId>
         <version>1.0-RAMA</version>
     </parent>
-
+    <properties>
+       <maven.compiler.source>1.6</maven.compiler.source>
+       <maven.compiler.target>1.6</maven.compiler.target>
+   </properties>
     <artifactId>project</artifactId>
     <packaging>war</packaging>
     <name>Project</name>
